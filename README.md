@@ -36,3 +36,6 @@ Compatible avec Elasticsearch 7.5.
 ## To Do
 - Ajout script Cleaning & toBulk 
 - Décrire mapping 
+- Ajout mapping
+- Mettre à jour la Doc
+- Renommer "waittime_bulk .json"
