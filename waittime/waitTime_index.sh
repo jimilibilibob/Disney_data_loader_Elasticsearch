@@ -23,7 +23,7 @@ curl -X PUT http://localhost:9200/waittime/_mapping \
         }
       }' 
 
-for file in ./*; do
+for file in ./data/*; do
     if [[ $file == *".json" ]]; then
         echo $file
         curl --output output_waittime.txt -s -H "Content-Type: application/json" -XPOST localhost:9200/_bulk --data-binary "@$file"  
